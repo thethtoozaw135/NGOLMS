@@ -1,0 +1,288 @@
+@extends('layouts.client')
+@section('content2')
+
+
+<main>
+
+    <!-- breadcrumb area start -->
+    <div class="breadcrumb__area include-bg pt-200 pb-150 breadcrumb__overlay" data-background="{{asset('../assets2/img/img/courses.png')}}">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12">
+                    <div class="breadcrumb__content p-relative z-index-1">
+                        <h3 class="breadcrumb__title">Courses</h3>
+                        <div class="breadcrumb__list">
+                            <span><a href="#">Home</a></span>
+                            <span class="dvdr"><i class="fa-regular fa-angle-right"></i></span>
+                            <span>courses</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb area end -->
+
+    <!-- course area start -->
+    <!-- <section class="course__area pt-120 pb-120">
+        <div class="container">
+            <div class="course__tab-inner grey-bg-2 mb-50">
+                <div class="row align-items-center">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                        <div class="course__tab-wrapper d-flex align-items-center">
+                            <div class="course__tab-btn">
+                                <ul class="nav nav-tabs" id="courseTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active px-2" id="grid-tab" data-bs-toggle="tab" data-bs-target="#grid" type="button" role="tab" aria-controls="grid" aria-selected="true">
+                                            <svg class="grid" viewBox="0 0 24 24">
+                                                <rect x="3" y="3" class="st0" width="7" height="7" />
+                                                <rect x="14" y="3" class="st0" width="7" height="7" />
+                                                <rect x="14" y="14" class="st0" width="7" height="7" />
+                                                <rect x="3" y="14" class="st0" width="7" height="7" />
+                                            </svg>
+                                        </button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link list px-2" id="list-tab" data-bs-toggle="tab" data-bs-target="#list" type="button" role="tab" aria-controls="list" aria-selected="false">
+                                            <svg class="list" viewBox="0 0 512 512">
+                                                <g id="Layer_2_1_">
+                                                    <path class="st0" d="M448,69H192c-17.7,0-32,13.9-32,31s14.3,31,32,31h256c17.7,0,32-13.9,32-31S465.7,69,448,69z" />
+                                                    <circle class="st0" cx="64" cy="100" r="31" />
+                                                    <path class="st0" d="M448,225H192c-17.7,0-32,13.9-32,31s14.3,31,32,31h256c17.7,0,32-13.9,32-31S465.7,225,448,225z" />
+                                                    <circle class="st0" cx="64" cy="256" r="31" />
+                                                    <path class="st0" d="M448,381H192c-17.7,0-32,13.9-32,31s14.3,31,32,31h256c17.7,0,32-13.9,32-31S465.7,381,448,381z" />
+                                                    <circle class="st0" cx="64" cy="412" r="31" />
+                                                </g>
+                                            </svg>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="course__view">
+                                <h4>Showing</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                        <div class="course__sort d-flex justify-content-sm-end">
+                            <div class="course__sort-inner">
+                                <select>
+                                    <option selected disabled>Default</option>
+                                    <option>Art and Creation</option>
+                                    <option>IT</option>
+                                    <option>Musical</option>
+                                    <option>Business</option>
+                                    <option>Language and Literature</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xxl-12">
+                    <div class="course__tab-conent pb-40">
+                        <div class="tab-content" id="courseTabContent">
+                            <div class="tab-pane fade show active" id="grid" role="tabpanel" aria-labelledby="grid-tab"> -->
+                                <!-- course start  -->
+                                <!-- <div class="tp-courses-2__section">
+                                    <div class="tp-courses-2__tab-content">
+                                        <div class="row">
+                                            <div class="col-xxl-12">
+                                                <div class="course__tab-conent pb-40">
+                                                    <div class="tab-content" id="courseTabContent">
+                                                        <div class="tab-pane fade show active" id="grid" role="tabpanel" aria-labelledby="grid-tab">
+                                                            course start
+                                                            <div class="tp-courses-2__section">
+                                                                <div class="tp-courses-2__tab-content">
+
+                                                                    <div class="row">
+                                                                        @foreach($classes as $class)
+                                                                        <div class="col-lg-4 col-md-6">
+                                                                            <div class="tp-courses__item mb-30 bg-orange-400  border rounded-xl">
+                                                                                <div class="tp-courses__thumb w-80 bg-angular h-10 p-2  text-white font-bold">
+
+                                                                                    <span class="ml-2">{{ $class->category->name }}</span>
+                                                                                </div>
+                                                                                <div class="tp-courses__thumb w-img fix p-relative">
+                                                                                    <img style="width: 430px; height: 336px;" src="{{ url('/classimages/'. $class->photo) }}" alt="">
+
+                                                                                </div>
+                                                                                <div class="tp-courses__content white-bg  border ">
+                                                                                    <h3 class="tp-courses__title"><a href="course-details.html">{{ $class->name }}</a></h3> -->
+                                                                                    <!-- <div class="tp-courses__avata flex items-center"> -->
+                                                                                        <!-- added flex and items-center -->
+                                                                                        <!-- Instructor's photo and name, assuming that you have related models -->
+                                                                                        <!-- @if($class->instructor && $class->instructor->photo)
+                                                                                        <img src="{{ url('/instructorimages/'.$class->instructor->photo) }}" alt="Instructor Image" class="w-8 h-8 rounded-full mr-2">
+                                                                                        @endif
+                                                                                        @if($class->instructor)
+                                                                                        <span class="font-bold">{{ $class->instructor->name }}</span>
+                                                                                        @endif
+                                                                                    </div>
+
+                                                                                    <div class="tp-courses__price d-flex justify-content-between">
+                                                                                        <div class="tp-courses__value">
+                                                                                            <span>{{ $class->classfees }} MMK</span>
+                                                                                        </div>
+                                                                                        <div class="tp-courses__time">
+                                                                                            <span><a href="{{ route('course.details', ['id' => $class->id]) }}" class="more-btn">More Details<i class="fa-regular fa-arrow-right"></i></a></span>
+                                                                                        </div>
+                                                                                    </div> -->
+                                                                                    <!-- Here you can add course time and value if available -->
+                                                                                <!-- </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        @endforeach
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- <div class="tab-pane fade" id="list" role="tabpanel" aria-labelledby="list-tab">
+                                <div class="row">
+                                    <div class="col-xxl-12">
+                                        @foreach($classes as $class)
+                                        <div class="tp-courses-4__item white-bg mb-30  fix">
+                                            <div class="row gx-0">
+                                                <div class="col-xxl-4 col-xl-4 col-lg-4">
+                                                    <div class="tp-courses-4__thumb w-img fix p-relative bg-white">
+                                                        <a href="course-details.html bg-white">
+                                                            <img src="{{ url('/classimages/'. $class->photo) }}" alt="">
+                                                        </a>
+                                                        <span class="tp-courses__cat py-1 px-2 hover:bg-orange-600 bg-orange-400 text-white font-bold">{{ $class->category->name }}</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xxl-8 col-xl-8 col-lg-8">
+                                                    <div class="tp-courses-4__content-wrapper">
+                                                        <div class="tp-courses-4__content">
+                                                            <h3 class="tp-courses-4__title">
+                                                                <a href="course-details.html">{{ $class-> topic }}</a>
+                                                            </h3>
+                                                            <div class="tp-courses-4__summary mb-25">
+                                                                <p>{{ $class-> description }}</p>
+                                                            </div>
+                                                            <div class="tp-courses-4__avata">
+                                                                <img src="assets/img/courses/avata/course-avata-3.jpg" alt="">
+                                                                <span class="font-bold text-lg">{{ $class->instructor->name }}</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tp-courses-4__price d-flex justify-content-between">
+                                                            <div class="tp-courses-4__value">
+                                                                <span>{{ $class->classfees }} MMK</span>
+                                                            </div>
+                                                            <div class="tp-courses__time">
+                                                                <span><a href="{{ route('course.details', ['id' => $class->id]) }}" class="more-btn">More Details<i class="fa-regular fa-arrow-right"></i></a></span>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        @endforeach
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section> -->
+    <!-- course area end -->
+
+
+
+
+    <!-- THZ CODE  -->
+
+
+<div class="container mx-auto my-20 grid md:grid-cols-3 gap-5 flex sm:flex-col sm:items-center  ">
+
+<div class="w-[500px] bg-slate-600 ">
+    <img class="w-full" src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg" alt="">
+
+
+
+    <div class="px-5 py-5">
+        <hr> <br>
+        <p class="text-2xl text-white">Basic Programming Class</p> <br>
+        <p class="text-md text-slate-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate consectetur veniam incidunt! Dolor tempore dolores fugit? Rerum quidem ullam a repellat quaerat blanditiis quas modi neque unde, quae qui odio!</p>
+</div>
+
+<div class="px-5">
+    <hr> <br>
+    <div class="flex items-center space-x-3">
+        <svg class="w-6 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>
+         <p class="text-[20px] text-white">2hr 30mins</p>
+
+    </div> <br>
+    <p class="bg-slate-200 p-2 mb-5 text-center text-[20px] transition hover:bg-slate-800 hover:text-white  duration-300 ">Enroll now</p>
+
+</div>
+
+</div>
+
+<!-- course 2 -->
+
+<div class="w-[500px] bg-slate-600 ">
+    <img class="w-full" src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg" alt="">
+
+
+
+    <div class="px-5 py-5">
+        <hr> <br>
+        <p class="text-2xl text-white">Basic Programming Class</p> <br>
+        <p class="text-md text-slate-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate consectetur veniam incidunt! Dolor tempore dolores fugit? Rerum quidem ullam a repellat quaerat blanditiis quas modi neque unde, quae qui odio!</p>
+</div>
+
+<div class="px-5">
+    <hr> <br>
+    <div class="flex items-center space-x-3">
+        <svg class="w-6 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>
+         <p class="text-[20px] text-white">2hr 30mins</p>
+
+    </div> <br>
+    <p class="bg-slate-200 p-2 mb-5 text-center text-[20px] transition hover:bg-slate-800 hover:text-white  duration-300 ">Enroll now</p>
+
+</div>
+</div>
+
+<!-- course 3 -->
+
+<div class="w-[500px] bg-slate-600 ">
+    <img class="w-full" src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg" alt="">
+
+
+
+    <div class="px-5 py-5">
+        <hr> <br>
+        <p class="text-2xl text-white">Basic Programming Class</p> <br>
+        <p class="text-md text-slate-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate consectetur veniam incidunt! Dolor tempore dolores fugit? Rerum quidem ullam a repellat quaerat blanditiis quas modi neque unde, quae qui odio!</p>
+</div>
+
+<div class="px-5">
+    <hr> <br>
+    <div class="flex items-center space-x-3">
+        <svg class="w-6 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>
+         <p class="text-[20px] text-white">2hr 30mins</p>
+
+    </div> <br>
+    <p class="bg-slate-200 p-2 mb-5 text-center text-[20px] transition hover:bg-slate-800 hover:text-white  duration-300 ">Enroll now</p>
+
+</div>
+</div>
+
+
+
+</main>
+@endsection
